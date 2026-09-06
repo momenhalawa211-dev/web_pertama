@@ -1,0 +1,45 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content:space-around ;
+    
+}
+
+ul {
+    list-style-type: none;
+    padding: 0%;
+    margin: 0%;
+    overflow: hidden;
+}
+ul li {
+    float: left;
+}
+ul li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 40px;
+    text-decoration: none;
+}
+.ma {
+    background-color: rgb(43, 195, 226);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+.judul {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    margin-bottom: -2px;
+}
+.tag {
+    background-color: white;
+    width: 300px;
+    padding: 0,1px;
+    border-radius: 20px;
+    font-size: small;
+    height: fit-content;
+}
